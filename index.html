@@ -1,0 +1,247 @@
+<!--POR SI ALGÚN DÍA VEZ ESTO, EL ADSI JUAN DIEGO LO HIZO-->
+<!DOCTYPE HTML>
+<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="es-Es" xmlns="http://www.w3.org/1999/xhtml">  
+<head>   
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+    	<title>Inicio - sigs CHEQ </title>    
+	<link rel="icon" type="icon/jpg" href="img/e.png">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/> 
+    <script src="js/jquery-3.4.1.min.js" type="text/javascript"></script> 
+   	<script src="js/materialize.js" type="text/javascript"></script>
+  	<script src="js/materialize.min.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>  
+
+<body> 
+
+    <!-- Dropdown Structure -->
+    <ul style="background: rgba(0, 0, 0, 0.2);" id="dropdown1" class="dropdown-content">
+        <li style="background: rgba(0, 0, 0, 0.2);"></li>
+        <li><a href="http://www.socya.org:83/reports/report/M%C3%A1ximo/SP_Proyectos/SP_Quimbo/Informes_Linea_Base/01_Menu_Linea_Base" target="_blank" class="white-text  text-darken-1 collection-item">Individual Censo</a></li>
+        <li><a href="http://www.socya.org:83/reports/report/M%C3%A1ximo/SP_Proyectos/SP_Quimbo/Informes_Linea_Base/Soporte/Informe%20General%20Censo%202009" target="_blank" class="white-text  text-darken-1 collection-item">General Censo 2009</a></li>
+        <li><a href="http://www.socya.org:83/reports/report/M%C3%A1ximo/SP_Proyectos/SP_Quimbo/Informes_Linea_Base/Censo_T135/Censo%20registros" target="_blank" class="white-text  text-darken-1 collection-item">General Censo T-135</a></li>
+        <li><a href="https://srquimbo/quimbo2" target="_blank" class="white-text  text-darken-1 collection-item">General MgGroup T-135</a></li> 
+ 	<li><a href="http://WWW.socya.org:83/reports/browse/M%C3%A1ximo/SP_Proyectos/SP_Quimbo/Informes_PMA" target="_blank" class="white-text  text-darken-1 collection-item">Reportes PMA</a></li>
+      
+    </ul>
+    <ul style="background: rgba(0, 0, 0, 0.2); width: 100px;" id="dropdown2" class="dropdown-content">
+        <li style="background: rgba(0, 0, 0, 0.2);"></li>
+        <li><a href="http://192.168.12.6/DocumentalWeb/" target="_blank" class="white-text  text-darken-1 collection-item">QF Documental PQRS</a></li>
+        <li><a href='Z:\Unidades compartidas\REPOSITORIO\01_T_135\02_ENTREVISTADOS' target='_blank' class='white-text  text-darken-1 collection-item'>Repositorio T-135</a></li> 
+        <li><a href='Z:\Unidades compartidas\DOSSIER\Expedientes\Exp_archivo_familias\01_Exp_pobl_compen_pheq' target='_blank' class='white-text  text-darken-1 collection-item'>Repositorio reasentamiento</a></li>
+        <li><a href="Z:\Unidades compartidas\REPOSITORIO\03_EEE\COMPENSADOS" target="_blank"  class='white-text  text-darken-1 collection-item'>Repositorio capital semilla</a></li>
+    </ul>
+    <ul style="background: rgba(0, 0, 0, 0.2); width: 100px;" id="dropdown3" class="dropdown-content">
+        <li style="background: rgba(0, 0, 0, 0.2);"></li>
+        <li><a href="http://saquimbo/SesWEB_Quimbo/Login.aspx?ReturnUrl=%2fSesWEB_Quimbo%2fMenu.aspx" target="_blank" class="white-text  text-darken-1 collection-item">SP Proyecto Hidroeléctrico el Quimbo</a></li>
+    </ul>
+    <nav style="padding-bottom: 0px;">
+        <div class="nav-wrapper" >
+            <a href="#" id="logo" class="right brand-logo"><img style="height: 65px;" src="img/logo.png"></a>
+            <ul class="left hide-on-med-and-down">
+              <!-- Dropdown Trigger -->
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">CONSULTAS <i class="material-icons right"></i></a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">DOCUMENTAL<i class="material-icons right"></i></a></li>
+                <li><a class="dropdown-trigger" href="#!" data-target="dropdown3">REGISTRO<i class="material-icons right"></i></a></li>
+                <li><h5></h5><i class="material-icons right"></i></li>
+                <li><h5></h5><i class="material-icons right"></i></li>
+                <li><h5></h5><i class="material-icons right"></i></li>
+                <li><h5></h5><i class="material-icons right"></i></li>
+                <li><h5></h5><i class="material-icons right"></i></li>
+                <li><h5></h5><i class="material-icons right"></i></li>
+         
+                   
+                <li id="titulo" class="right" style="display: none;">
+                <h5>
+                  <script type="text/javascript"> 
+                   var d = new Date();
+                   var month = new Array();
+                   month[0] = "Enero";
+                   month[1] = "Febrero";
+                   month[2] = "Marzo";
+                   month[3] = "Abril";
+                   month[4] = "Mayo";
+                   month[5] = "Junio";
+                   month[6] = "Julio";
+                   month[7] = "Agosto";
+                   month[8] = "Septiembre";
+                   month[9] = "Octubre";
+                   month[10] = "Noviembre";
+                   month[11] = "Diciembre";
+                   var n = month[d.getMonth()];
+                   document.write('Entérate! ');
+                   document.write(n);
+                   document.write(" ");
+                   var today = new Date()
+                   var year = today.getFullYear()
+                   document.write(year)
+                  </script>
+                </h5></li>
+            </ul>
+            
+        </div>
+    </nav>
+    <div></div>
+    <!--Slider-->
+    <div class="slider" style="z-index:1;">
+        <ul class="slides">
+            <li>
+                <img src="img/1.jpg" class="responsive-img"> <!-- random image -->
+                <div class="caption center-align">
+                    <h3><br><br>Sistema Integrado Gestión Social CHEQ</h3>
+                    <h5 class="light grey-text text-lighten-3">Consulta del Plan de gestión Social de la Central Hidroeléctrica El Quimbo.</h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/2.jpg" class="responsive-img"> <!-- random image -->
+                <div class="caption center-align">
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><h3>Central Hidroeléctrica El Quimbo</h3>
+                    <h5 class="light grey-text text-lighten-3">
+                        Hace uso de las aguas del río Suaza y Magdalena, cuenta con una <br>capacidad instalada de 400 MW y una generación media de 2.216 Gwh año,<br> con ello se abastece cerca del 4% de la demanda energética colombiana.
+                    </h5>
+                </div>
+            </li>
+            <li>
+                <img src="img/3.jpg" class="responsive-img"> <!-- random image -->
+                <div class="caption left-align">
+                    <h3><br><br><br><br><br>Viaducto Balseadero</h3>
+					<h5 class="light grey-text text-lighten-3">Conecta a los municipios de Garzón y Agrado, con una distancia de <br>1.7 kilometros es uno de los puentes mas largos del país.</h5>
+					</div>
+					
+            </li>
+         
+            <li>
+                <img src="img/4.jpg"> <!-- random image -->
+                <div class="caption center-align">
+
+                    <h2 class="light grey-text text-lighten-3"><br><br><b>Nuestro compromiso es con la gente y el medio ambiente</b></h2>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+        
+
+
+<section>
+
+<br><br><br><br>    
+<div class="row">
+<!--cards -->
+<div class="col s6" title="HECHOS RELEVANTES">
+	<div id="hr1"><a target="_blank" href="enterate/hechos/hr1.pdf"><u style="color:#E57373;"><h6 style="font-size: 18px; color:#E57373;">Ver</h6></u></a><object style="width:100%;height:391px" data="enterate/hechos/hr1.pdf">Todavía no hay nada aquí</object></div>
+        <div id="hr2"><a target="_blank" href="enterate/hechos/hr2.pdf"><u style="color:#E57373;"><h6 style="font-size: 18px; color:#E57373;">Ver</h6></u></a><object style="width:100%;height:391px" data="enterate/hechos/hr2.pdf">Todavía no hay nada aquí</object></div>
+        <div id="hr3"><a target="_blank" href="enterate/hechos/hr3.pdf"><u style="color:#E57373;"><h6 style="font-size: 18px; color:#E57373;">Ver</h6></u></a><object style="width:100%;height:391px" data="enterate/hechos/hr3.pdf">Todavía no hay nada aquí</object></div>
+        <div id="hr4"><a target="_blank" href="enterate/hechos/hr4.pdf"><u style="color:#E57373;"><h6 style="font-size: 18px; color:#E57373;">Ver</h6></u></a><object style="width:100%;height:391px" data="enterate/hechos/hr4.pdf">Todavía no hay nada aquí</object></div>
+        <div id="hr5"><a target="_blank" href="enterate/hechos/hr5.pdf"><u style="color:#E57373;"><h6 style="font-size: 18px; color:#E57373;">Ver</h6></u></a><object style="width:100%;height:391px" data="enterate/hechos/hr5.pdf">Todavía no hay nada aquí</object></div>
+
+<div class="card-tabs">
+      <ul class="tabs tabs-fixed-width">
+         <li  title="SEMANA 1" style="display: block;" class="tab"><a href="#hr1">1</a></li>
+         <li  title="SEMANA 2" style="display: block;" class="tab"><a href="#hr2">2</a></li>
+         <li  title="SEMANA 3" style="display: block;" class="tab"><a href="#hr3">3</a></li>
+         <li  title="SEMANA 4" style="display: block;" class="tab"><a href="#hr4">4</a></li>
+         <li  title="SEMANA 5" style="display: block;" class="tab"><a href="#hr5">5</a></li>
+      </ul>
+</div>
+</div>
+
+<div class="col s6" title="AVANCE SEMANAL">
+	<div id="as1"><a target="_blank" href="enterate/avance/as1.pdf"><u style="color:#E57373;"><h6 style="font-size: 18px; color:#E57373;">Ver</h6></u></a><object style="width:100%;height:391px" data="enterate/avance/as1.pdf">Todavía no hay nada aquí</object></div>
+        <div id="as2"><a target="_blank" href="enterate/avance/as2.pdf"><u style="color:#E57373;"><h6 style="font-size: 18px; color:#E57373;">Ver</h6></u></a><object style="width:100%;height:391px" data="enterate/avance/as2.pdf">Todavía no hay nada aquí</object></div>
+        <div id="as3"><a target="_blank" href="enterate/avance/as3.pdf"><u style="color:#E57373;"><h6 style="font-size: 18px; color:#E57373;">Ver</h6></u></a><object style="width:100%;height:391px" data="enterate/avance/as3.pdf">Todavía no hay nada aquí</object></div>
+        <div id="as4"><a target="_blank" href="enterate/avance/as4.pdf"><u style="color:#E57373;"><h6 style="font-size: 18px; color:#E57373;">Ver</h6></u></a><object style="width:100%;height:391px" data="enterate/avance/as4.pdf">Todavía no hay nada aquí</object></div>
+        <div id="as5"><a target="_blank" href="enterate/avance/as5.pdf"><u style="color:#E57373;"><h6 style="font-size: 18px; color:#E57373;">Ver</h6></u></a><object style="width:100%;height:391px" data="enterate/avance/as5.pdf">Todavía no hay nada aquí</object></div>
+
+<div class="card-tabs">
+      <ul class="tabs tabs-fixed-width">
+         <li  title="SEMANA 1" style="display: block;" class="tab"><a href="#as1">1</a></li>
+         <li  title="SEMANA 2" style="display: block;" class="tab"><a href="#as2">2</a></li>
+         <li  title="SEMANA 3" style="display: block;" class="tab"><a href="#as3">3</a></li>
+         <li  title="SEMANA 4" style="display: block;" class="tab"><a href="#as4">4</a></li>
+         <li  title="SEMANA 5" style="display: block;" class="tab"><a href="#as5">5</a></li>
+      </ul>
+</div>
+</div>
+    </div>
+</section>
+
+<footer>
+    <div style="background: white; margin-top: 5px;">		
+
+            <div class="col s12">
+               <center>
+                  <h6 class="center-align" style="padding-bottom: 21px;color: #e57373;"> © 2019 Propiedad Intelectual de Socya utlizado por Enel - Emgesa
+                  </h6>
+                </center>
+            </div>
+      </div>
+</footer>    
+    
+
+
+
+<script>
+ 
+         
+        $(document).ready(function () {
+              M.AutoInit();
+            $('.materialboxed').materialbox();
+            $(".dropdown-trigger").dropdown({ hover: 1, selector: 0 })
+            $('.slider').slider({ height: 625, indicators: 0, interval: 10000, duration: 1000 });
+			 $(window).scroll(function(){
+
+            if($(window).scrollTop()>600){
+             document.getElementById("titulo").style.display="block";  
+            }else{
+              document.getElementById("titulo").style.display="none";  
+            }
+           if($(window).scrollTop()>600){
+              $('nav').addClass ('red');
+            }else{
+              $('nav').removeClass ('red');
+            }
+          });
+       });
+
+        
+</script>
+
+
+    <style>
+        *:focus {
+            outline: none;
+        }
+
+        nav {
+            position: fixed;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 0px 20px;
+            z-index: 2;
+			}
+		section{
+			background-color: white;
+			}
+       
+        .box {
+            margin-top: 20px;
+            height: 1000px;
+        }
+        .page-footer {
+            background: #78909c;
+        }
+        nav li a:hover {
+            background: #e57373;
+        }
+        
+	
+
+    </style>
+<script src="js/temporizador.js" type="text/javascript"></script>  
+
+</body>
+
+</htmL>
